@@ -41,7 +41,7 @@ using System;
     {
         static void Main(string[] args)
         {
-            Tabletop t = new Tabletop(7.5, 8.03);
+            Tabletop t = new(7.5, 8.03);
             t.Display();
             Console.ReadLine();
         }
